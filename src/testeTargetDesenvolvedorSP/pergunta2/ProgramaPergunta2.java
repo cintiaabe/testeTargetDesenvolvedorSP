@@ -8,7 +8,7 @@ public class ProgramaPergunta2 {
 
 		Scanner sc = new Scanner (System.in);
 		
-		System.out.print("Informe um número de 0 a 10000:");
+		System.out.print("Informe um número:");
 		int num = sc.nextInt();
 		int num1=0;
 		int num2=1;
@@ -19,7 +19,6 @@ public class ProgramaPergunta2 {
 			soma = num1 + num2;
 			num1 = num2;
 			num2 = soma;
-			System.out.println("soma:" + soma);
 			if (soma==num) {
 				fibonacci = true;
 				break;
@@ -34,5 +33,4 @@ public class ProgramaPergunta2 {
 			System.out.println("Não pertende a sequencia Fibonacci");
 		}
 	}
-
 }
